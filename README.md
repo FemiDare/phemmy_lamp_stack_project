@@ -27,4 +27,32 @@ I then tested to check if I could access my server from my ubuntu shell using th
 
 ![Screenshot 2023-09-16 121706](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/1665835f-ef34-4ec5-90c6-5803a3681543)
 
+I also tested to see if my apache server can receive requests from the internet via the web browser by using the url http://<my-public-ip-address>:80 
+
+![Screenshot 2023-09-16 121940](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/21d9a2d8-fbfd-4a90-bfbd-7bb91da08deb)
+
+Next I proceeded to install my database management system (MySql) using the command "sudo apt install mysql-server" and then proceeded to log into mysql console using the command "sudo mysql" and exited the mysql console
+
+![Screenshot 2023-09-16 122245](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/9e9c6a75-2f3d-4e38-bc80-5c7802dc668d)
+
+![Screenshot 2023-09-16 122637](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/ab2e4bba-930c-4570-9d30-68b17789e799)
+
+I then went ahead to configure a password for mysql console taking into consideration and selection several options as pertaining to the level of security and protocols for password acceptance and strenght using the command "sudo mysql_secure_installation" 
+
+![Screenshot 2023-09-16 123516](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/c2194cd6-db8d-4731-8b55-1ce0aad1498d)
+
+![Screenshot 2023-09-16 123609](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/5a4b881b-d7ec-4575-b635-7c7b4300788b)
+
+So as to test the password I had just assigned, I logged into mysql console using the command "sudo mysql -p" which required I input the password before logging in and then exited using the command "exit" 
+
+![Screenshot 2023-09-16 123918](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/4be754f9-8005-45bc-8696-888754ac6634)
+
+Next I proceeded to execute a php installation using the command "sudo apt install php libapache-mod-php php-mysql", libapache-mod-php being needed to enable apache to to handle php files and php-mysql being needed to allow php to communicate with mysql-based databases.
+
+![Screenshot 2023-09-16 124135](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/4491694d-1626-465a-bc44-c5cf57502637)
+
+I then acertained my php version by using the command "php -v" 
+
+![Screenshot 2023-09-16 124245](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/b79a8f86-ae0c-47d8-b3bc-c9d5028a1c9f)
+
 
