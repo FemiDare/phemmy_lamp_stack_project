@@ -15,3 +15,16 @@ I then proceeded to install apache2 on my instance using the command "sudo apt i
 
 ![Screenshot 2023-09-16 121003](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/b5b7c6de-69aa-4827-8245-f52a12cbf205)
 
+So as to be able to receive traffic from our webserver, I went to ahead to add an inbound rule via the security tab in my AWS instance so as to open TCP port 80 which is the default port that web browsers use in accessing web pages from the internet.
+
+![Screenshot 2023-09-16 121318](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/0764fe47-951f-4eed-a713-c1249b11fe82)
+
+![Screenshot 2023-09-16 121502](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/53846d87-7d49-4955-93fc-060b6d23ed1f)
+
+I then tested to check if I could access my server from my ubuntu shell using the command "curl http://localhost:80" 
+
+![Screenshot 2023-09-16 121647](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/cd7c7b40-66ff-46de-b12a-59a6f25406d6)
+
+![Screenshot 2023-09-16 121706](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/1665835f-ef34-4ec5-90c6-5803a3681543)
+
+
