@@ -55,4 +55,14 @@ I then acertained my php version by using the command "php -v"
 
 ![Screenshot 2023-09-16 124245](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/b79a8f86-ae0c-47d8-b3bc-c9d5028a1c9f)
 
+In order to change the loading protocol or behavior of the pages or set the priority in order of loading of pages, the settings of order of priority needed to be changed and I did that using the "sudo vim /etc/apache2/mods-enabled/dir.conf" command and moved a file named "index.php" forward in the order of load priority and then I reloaded apache using the command "sudo systemctl reload apache2"
+
+![Screenshot 2023-09-16 124943](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/78120aa6-baf8-4ea4-ae9e-74ba2c6fc11f)
+
+![Screenshot 2023-09-16 125546](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/b3340c54-b811-4233-8610-949e0b570833)
+
+![Screenshot 2023-09-16 124737](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/c1a16ce2-88f2-44d2-9a5b-f6eb8f1d22bb)
+
+![Screenshot 2023-09-16 124859](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/e2e3c07f-a19e-4d06-a99c-17d9ab86440f)
+
 
