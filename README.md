@@ -65,4 +65,30 @@ In order to change the loading protocol or behavior of the pages or set the prio
 
 ![Screenshot 2023-09-16 124859](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/e2e3c07f-a19e-4d06-a99c-17d9ab86440f)
 
+In order to test that php is working properly I was required to create a php script. I tried creating a file named "index.php" using the command "vim /var/www/projectlamp/index.php" but I keep receiving an error message as the file could not be created. I then proceeded to (more stressfully) change directory in where I wanted to create the file and using the "touch" command, created the file and then using the "vi" command edited the contents of the file.
+
+![Screenshot 2023-09-16 131615](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/c5917a9b-b6fe-4675-83c8-9622ce1dde7a)
+
+![Screenshot 2023-09-16 131643](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/e697acc7-9f4e-4159-9e7a-30ca0b2105f0)
+
+![Screenshot 2023-09-16 131715](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/ed0c92e7-8251-40dc-b25b-436664c63d03)
+
+![Screenshot 2023-09-16 131118](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/71ec5c14-42fb-4629-a994-b96123925b3b)
+
+On editting the contents of this file, I went over to the web browser and reloaded the page with my public address as the url and the page had changed to the php info given the script that was added to the index.php file
+
+![Screenshot 2023-09-16 131737](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/3b610fa0-9ca6-46bf-a777-a92834486405)
+
+Kindly note that in order to get this page to work as intended, I encountered quite a number of issues and had to trouble shoot and wiggle around before getting the desired result.
+
+![Screenshot 2023-09-16 140459](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/e0b03b4c-cebe-4ee6-a4f2-706a7c5af995)
+
+![Screenshot 2023-09-16 140647](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/ffcecee9-c4b5-498c-add3-2db0c34e436d)
+
+![Screenshot 2023-09-16 140543](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/2b1ebf53-632f-4dc6-88b6-1c79aaef4396)
+
+![Screenshot 2023-09-16 140305](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/b7f8fc6e-587e-449d-9cb2-d1bb653ee573)
+
+![Screenshot 2023-09-16 140706](https://github.com/FemiDare/phemmy_lamp_stack_project/assets/140294606/af0a99bf-a726-4e2d-a587-943da6421d63)
+
 
